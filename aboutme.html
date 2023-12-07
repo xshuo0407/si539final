@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="me" >
+    <nav id="top-menu">
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="photos.html">photos</a></li>
+            <li><a href="aboutme.html" id="logo">XS</a></li>
+            <li><a href="music.html">music</a></li>
+            <li><a href="movies.html">movies</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <section class="personal-info" >
+            <div class="portrait" onclick="toggleVideo()">
+                <img src="images/FullSizeRender 2.jpg" alt="" class="portrait-img" style="display: block;">
+                <video id="portraitVideo" class="video" width="150" height="150" loop  style="display: none;">
+                    <source src="vid/RPReplay_Final1701589138.mov" type="video/mp4">
+                </video>
+                
+            </div>
+            <div class="name">
+                <h3 class="myname">Shuo Xie</h3>
+                <p>As a graduate student pursuing dual degrees in Information and Sports Management at the University of Michigan, my academic and professional journey has been culturally rich and diverse. Originally from China, I ventured to Japan at the age of 17 for my studies, where I spent two memorable years in Kyoto followed by five in Tokyo. Fluent in Chinese, Japanese, and English, I've cultivated a global perspective that complements my work experience in both the sports, gaming and tech industries. For a more detailed overview of my background and skills, please feel free to download my resume.</p>
+                <a href="images/Resume+.pdf" download="Shuo_Xie_Resume" class="resume-download-btn">Download My Resume</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; Shuo Xie. SI 539 Fall 2023.</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/shuo-xie-umich/" target="_blank" class="fab fa-linkedin-in"></a>
+            <a href="https://instagram.com/xshuo0407?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr" target="_blank" class="fab fa-instagram"></a>
+            <a href="mailto: xshuo@umich.edu" class="fas fa-envelope"></a>
+          </div>
+        </div>
+      </footer>
+    
+    
+</main>
+<script src="script.js"></script>
+</body>
+</html>
